@@ -1,0 +1,74 @@
+1. Total de registros (ventas): 100,000
+2. Ventas por estado:
+o Cerradas: 74,947
+o Pendientes: 18,039
+o Canceladas: 7,014
+3. Valor total de ventas realizadas: $328,267,319,000
+4. Promedio de comisión pagada por venta cerrada: $163,847.39
+5. Ciudad con mayor número de ventas cerradas: Medellín, 7636 ventas cerradas.
+6. Valor total de ventas por ciudad (top): 
+CIUDADCali$ 33.396.048.000,00Bogotá$ 33.354.607.000,00Bucaramanga$ 33.324.838.000,00Santa Marta$ 33.256.118.000,00Ibagué$ 33.043.083.000,00Cartagena$ 32.663.526.000,00Medellín$ 32.648.683.000,00Manizales$ 32.563.960.000,00Pereira$ 32.403.349.000,00Barranquilla$ 31.613.107.000,00
+7. Top 5 productos más vendidos:
+o Placa de video usada GTX 1070 (refurb) – 4,289
+o Fuente 650W 80+ Bronze – 4,272
+o Auriculares gaming con micrófono – 4,267
+o Cooler por aire CPU – 4,252
+o Placa Madre B550 – 4,244
+
+8. Productos únicos vendidos: 24
+9. Vendedor con más ventas cerradas: Diego Castro, 7602 ventas cerradas.
+10. Venta de mayor valor:
+o Cliente: Fernando Torres Ramírez
+o Producto: Tarjeta Gráfica RTX 4070
+o Valor: $40,320,000 (8 unidades, Bogotá, vendedor Felipe Díaz)
+11. Ventas con valor o comisión nula/negativa: 20
+12. Media de ventas por mes: 
+Enero$ 3.277.606.000.000,00Febrero$ 3.303.957.000.000,00Marzo$ 3.293.356.000.000,00Abril$ 3.325.446.000.000,00Mayo$ 3.399.230.000.000,00Junio$ 3.284.118.000.000,00Julio$ 3.247.589.000.000,00Agosto$ 3.242.058.000.000,00Septiembre$ 3.276.864.000.000,00Octubre$ 3.268.259.000.000,00Noviembre$ 3.195.570.000.000,00Diciembre$ 3.276.830.000.000,00
+
+13. Mes con más ventas cerradas: Marzo (3)
+14. Ventas por trimestre: (Q = Quarter “Trimestral”)
+Fecha2024Q0316182024Q04249752025Q1248142025Q2249122025Q323681
+15. Productos vendidos en más de 3 ciudades: 
+Auriculares gaming con micrófono10Caja para SSD/HDD10Cooler por aire CPU10Disco HDD 2TB10Disipador líquido 240mm10Fuente 650W 80+ Bronze10Fuente 750W 80+ Gold10Gabinete Mid Tower10Memoria RAM 16GB DDR410Memoria RAM 32GB DDR410Monitor 24 pulgadas 144Hz10Monitor 27 pulgadas 165Hz10Mouse gaming 16000 DPI10Placa Madre B55010Placa Madre B66010Placa de video usada GTX 1070 (refurb)10Procesador AMD Ryzen 5 5600X10Procesador Intel i5 12400F10SSD NVMe 1TB10SSD NVMe 500GB10Tarjeta Gráfica GTX 166010Tarjeta Gráfica RTX 306010Tarjeta Gráfica RTX 407010Teclado mecánico RGB10
+
+16. Duplicados encontrados: 0
+17. Registros después de limpiar nulos: 99960
+18. Producto con mayor utilidad total:
+PRODUCTO
+Tarjeta Gráfica RTX 4070    7.809549e+10
+GroupBy Valor total de ventas por ciudad:CIUDADBarranquilla3,1613E+10Bogotá3,3355E+10Bucaramanga3,3325E+10Cali3,3396E+10Cartagena3,2664E+10
+
+GroupBy Número de ventas por estado y ciudad:ESTADO CIUDAD  Barranquilla681Bogotá732Bucaramanga700Cali657Cartagena677Ibagué692Manizales735Medellín720Pereira702Santa Marta718
+GroupBy Categoría con mayor valor de ventas:
+CATEGORIA
+GPU    162710618000
+Name: VALOR_VENTA, dtype: int64
+
+GroupBy Total de ventas mensuales por ciudad:
+FECHA    CIUDAD      
+2024-09  Barranquilla    446748000
+         Bogotá          542725000
+         Bucaramanga     535594000
+         Cali            556489000
+         Cartagena       531011000
+         Ibagué          568751000
+         Manizales       426523000
+         Medellín        398536000
+         Pereira         490640000
+         Santa Marta     558306000
+Name: VALOR_VENTA, dtype: int64
+
+GroupBy Ventas cerradas por vendedor y ciudad:
+VENDEDOR        CIUDAD      
+Andrés Morales  Barranquilla    788
+                Bogotá          702
+                Bucaramanga     755
+                Cali            745
+                Cartagena       746
+                Ibagué          744
+                Manizales       748
+                Medellín        715
+                Pereira         796
+                Santa Marta     749
+
+
